@@ -3,15 +3,16 @@
 /*Mobal First*/
 
 * {
-    margin: 0px;
-    padding: 0px;
     font-family: "Orbitron", sans-serif, Arial, Helvetica;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-body {
+body, html {
     height: 100vh;
     background: lightgray url(../images/background.jpg) no-repeat;
     background-size: cover;
