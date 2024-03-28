@@ -13,10 +13,12 @@
 }
 
 body, html {
-    height: 100vh;
     background: lightgray url(../images/background.jpg) no-repeat;
-    background-size: cover;
+    background-attachment: fixed; /*A background-attachmentpropriedade define se uma imagem de fundo rola com o resto da página ou é fixa.*/
+    background-size: cover; 
     background-position: center center;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
