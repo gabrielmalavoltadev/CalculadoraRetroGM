@@ -9,7 +9,7 @@
     font-style: normal;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*o preenchimento e a borda serão incluídos na largura e na altura*/
 }
 
 body, html {
