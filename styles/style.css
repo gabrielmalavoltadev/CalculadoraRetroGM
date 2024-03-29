@@ -31,8 +31,11 @@ header {
 
 main {
     position: relative;
-    height: 93vh;
+    height: calc(100vh - 7%);
+    /*height: 93vh;*/
     width: 100vw;
+
+
 }
 
 .calculator {
@@ -45,12 +48,7 @@ main {
 
     background-color: white;
     width: 300px;
-    height: 500px;
+    height: 480px;
     border-radius: 10px 10px 50px 50px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.700);
-}
-
-footer {
-    margin: 0px;
-    padding: 0px;  
 }
