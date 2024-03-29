@@ -11,6 +11,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; /*o preenchimento e a borda serão incluídos na largura e na altura*/
+
+    transition: width 0.1s, height 0.1s;
+    transition-timing-function: ease;
 }
 
 
@@ -32,7 +35,6 @@ header {
 main {
     position: relative;
     height: 93vh;
-    /*height: 93vh;*/
     width: 100vw;
 
 
