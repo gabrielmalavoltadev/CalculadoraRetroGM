@@ -16,16 +16,19 @@
     transition-timing-function: ease;
 }
 
-
-body, html {
-    background: lightgray url(../images/background.jpg) no-repeat;
-    background-attachment: fixed; /*A background-attachmentpropriedade define se uma imagem de fundo rola com o resto da página ou é fixa.*/
-    background-size: cover; 
-    background-position: center center;
+html {
     height: 100vh;
     width: 100vw;
     
 }
+
+body {
+    background: lightgray url(../images/background.jpg) no-repeat;
+    background-attachment: fixed; /*A background-attachmentpropriedade define se uma imagem de fundo rola com o resto da página ou é fixa.*/
+    background-size: cover; 
+    background-position: center center;
+}
+
 
 header {
     font-size: 1em;
