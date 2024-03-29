@@ -16,19 +16,14 @@
     transition-timing-function: ease;
 }
 
-html {
-    height: 100vh;
-    width: 100vw;
-    
-}
-
-body {
-    background: lightgray url(../images/background.jpg) no-repeat;
+body, html {
+    background: lightsteelblue url(../images/background.jpg) no-repeat;
     background-attachment: fixed; /*A background-attachmentpropriedade define se uma imagem de fundo rola com o resto da página ou é fixa.*/
     background-size: cover; 
     background-position: center center;
+    height: 100vh;
+    width: 100vw;
 }
-
 
 header {
     font-size: 1em;
@@ -39,8 +34,6 @@ main {
     position: relative;
     height: 93vh;
     width: 100vw;
-
-
 }
 
 .calculator {
