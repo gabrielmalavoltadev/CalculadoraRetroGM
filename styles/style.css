@@ -7,6 +7,7 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    text-align: center;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box; /*o preenchimento e a borda serão incluídos na largura e na altura*/
@@ -22,12 +23,27 @@ body, html {
 }
 
 header {
-    font-size: 0.8em;
+    font-size: 1em;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255); /*Editar*/
 }
 
 main {
-    height: 530px;
-    width: 90vw;
-    background-color: lightgrey;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
 
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /*Como o ponto de referencia para top e left é o superior esquerdo da div, podemos alinhar ela usando o transform passando o translate*/
+    transform: translate(-50%, -50%);
+    overflow: hidden; /*hidden vai cortar todo o excesso que transbordar o elemento. Para esse caso, vele tentar o auto que cria barra de rolagem caso ultrapasse.*/
+
+    background-color: white;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px 10px 50px 50px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.700);
 }
