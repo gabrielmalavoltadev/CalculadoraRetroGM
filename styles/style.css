@@ -13,6 +13,7 @@
     box-sizing: border-box; /*o preenchimento e a borda serão incluídos na largura e na altura*/
 }
 
+
 body, html {
     background: lightgray url(../images/background.jpg) no-repeat;
     background-attachment: fixed; /*A background-attachmentpropriedade define se uma imagem de fundo rola com o resto da página ou é fixa.*/
@@ -20,6 +21,7 @@ body, html {
     background-position: center center;
     height: 100vh;
     width: 100vw;
+    
 }
 
 header {
@@ -29,7 +31,7 @@ header {
 
 main {
     position: relative;
-    height: 100vh;
+    height: 93vh;
     width: 100vw;
 }
 
@@ -46,4 +48,9 @@ main {
     height: 500px;
     border-radius: 10px 10px 50px 50px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.700);
+}
+
+footer {
+    margin: 0px;
+    padding: 0px;  
 }
