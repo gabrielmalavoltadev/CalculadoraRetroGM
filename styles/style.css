@@ -1,6 +1,15 @@
 @charset "UTF-8";
 
 /*Mobal First*/
+/*
+#D7D7D9
+#747C8C
+#402E1E
+#BF926B
+#73574D
+ */
+
+
 
 * {
     font-family: "Orbitron", sans-serif, Arial, Helvetica;
@@ -44,9 +53,61 @@ main {
     transform: translate(-50%, -50%);
     overflow: hidden; /*hidden vai cortar todo o excesso que transbordar o elemento. Para esse caso, vele tentar o auto que cria barra de rolagem caso ultrapasse.*/
 
-    background-color: white;
+    background-color: #B9B9BB;
     width: 340px;
     height: 510px;
     border-radius: 10px 10px 50px 50px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.700);
+}
+
+div.display {
+    display: block;
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    
+    transform: translate(-50%, -0%);
+    
+    background-color: #73574dcb;
+    width: 97%;
+    height: 30%;
+    border-radius: 20px 20px 4px 4px;
+}
+
+div.display > span {
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+    left: 15%;
+
+    transform: translate(-50%, -0%);
+
+    font-size: 3em;
+}
+
+div.display > input {
+    display: inline-block;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: #747C8C;
+    width: 68%;
+    height: 35%;
+}
+
+div.buttons {
+    display: inline-block;
+    position: absolute;
+    top: 66%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    background-color: #747c8c81;
+    width: 97%;
+    height: 66%;
+    border-radius: 4px 4px 50px 50px;
 }
