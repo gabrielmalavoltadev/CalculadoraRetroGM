@@ -45,7 +45,7 @@ main {
     overflow: hidden; /*hidden vai cortar todo o excesso que transbordar o elemento. Para esse caso, vele tentar o auto que cria barra de rolagem caso ultrapasse.*/
 
     background-color: white;
-    width: 350px;
+    width: 340px;
     height: 510px;
     border-radius: 10px 10px 50px 50px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.700);
