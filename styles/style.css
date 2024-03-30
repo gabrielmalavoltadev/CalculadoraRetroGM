@@ -38,14 +38,14 @@ main {
 
 .calculator {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     /*Como o ponto de referencia para top e left é o superior esquerdo da div, podemos alinhar ela usando o transform passando o translate*/
     transform: translate(-50%, -50%);
     overflow: hidden; /*hidden vai cortar todo o excesso que transbordar o elemento. Para esse caso, vele tentar o auto que cria barra de rolagem caso ultrapasse.*/
 
     background-color: white;
-    width: 380px;
+    width: 350px;
     height: 510px;
     border-radius: 10px 10px 50px 50px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.700);
