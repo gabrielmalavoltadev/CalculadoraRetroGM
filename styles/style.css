@@ -99,7 +99,6 @@ div.display > input {
 }
 
 div.buttons {
-    display: inline-block;
     position: absolute;
     top: 66%;
     left: 50%;
@@ -110,4 +109,38 @@ div.buttons {
     width: 97%;
     height: 66%;
     border-radius: 4px 4px 50px 50px;
+    padding: 10px;
+}
+
+div.buttons > button {
+    position: relative;
+    width: 10vw;
+    height: 6vh;
+}
+
+div.buttons > div.red {
+    position: relative;
+    left: 30%;
+    height: 7%;
+}
+
+div.buttons > div.red > button {
+    position: relative;
+    background-color: rgba(228, 32, 32, 0.671);
+    color: white;
+    height: 100%;
+    width: 12%;
+}
+
+div.buttons > div.orange {
+    position: relative;
+    height: 10%;
+    margin-top: 3px;
+}
+
+div.buttons > div.orange > button {
+    position: relative;
+    background-color: orange;
+    height: 100%;
+    width: 18%;
 }
