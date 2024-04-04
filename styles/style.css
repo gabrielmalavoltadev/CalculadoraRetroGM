@@ -100,6 +100,7 @@ div.display > input {
 
 div.buttons {
     position: absolute;
+    /*overflow: hidden;*/
     top: 66%;
     left: 50%;
 
@@ -138,4 +139,56 @@ div.buttons > div.orange > button {
     background-color: orange;
     height: 100%;
     width: 18%;
+}
+
+div.buttons > div.greyc1 {
+    position: absolute;
+    /*background-color: rgb(160, 206, 160);*/
+    margin: 1px;
+    height: 80%;
+    width: 19%;
+    left: 60%;
+}
+
+div.buttons > div.greyc1 > button {
+    background-color: grey;
+    width: 80%;
+    height: 20%;
+    margin: 2px;
+}
+
+div.buttons > div.greyc1 > #mais {
+    /*background-color: rgb(10, 185, 19);*/
+    width: 80%;
+    height: calc(40% + 6px);
+}
+
+div.buttons > div.greyc2 {
+    position: absolute;
+    /*background-color: rgb(97, 167, 214);*/
+    margin: 2px;
+    height: 80%;
+    width: 19%;
+    left: 78%;
+}
+
+div.buttons > div.greyc2 > button {
+    background-color: grey;
+    margin: 2px;
+    width: 80%;
+    height: 20%;
+}
+
+div.buttons > div.white {
+    position: absolute;
+    /*background-color: rgb(212, 158, 172);*/
+    margin: 2px;
+    height: 80%;
+    width: 58%;
+}
+
+div.buttons > div.white > button {
+    margin: 2px;
+    width: 28%;
+    height: 20%;
 }
