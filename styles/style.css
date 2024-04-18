@@ -85,7 +85,7 @@ div.display > span {
     font-size: 3em;
 }
 
-div.display > input {
+div.display > output {
     display: inline-block;
     position: absolute;
     top: 65%;
