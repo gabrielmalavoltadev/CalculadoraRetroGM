@@ -89,14 +89,16 @@ div.display > output {
     display: inline-block;
     position: absolute;
     top: 65%;
-    left: 60%;
+    left: 50%;
 
     transform: translate(-50%, -50%);
-
     background-color: #747C8C;
-    width: 68%;
+    width: 80%;
     height: 35%;
+    font-size: 2em;
+    text-align: right;
 }
+
 
 div.buttons {
     position: absolute;

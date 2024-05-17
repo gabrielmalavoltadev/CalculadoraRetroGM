@@ -27,7 +27,7 @@
 
             <div class="buttons">
                 <div class="red">
-                    <button>CE</button>
+                    <button onclick="limparTela()">CE</button>
                     <button>OFF</button>
                     <button>ON</button>                 
                 </div>
@@ -41,17 +41,17 @@
                 </div>
 
                 <div class="greyc1">
-                    <button onclick="clicar('%')">%</button>
-                    <button onclick="clicar('-')">-</button>
-                    <button id="mais" onclick="clicar('+')">+</button>
+                    <button onclick="limparTela(),clicar('%')">%</button>
+                    <button onclick="limparTela(),clicar('-')">-</button>
+                    <button id="mais" onclick="limparTela(),clicar('+')">+</button>
                     
                 </div>
 
                 <div class="greyc2">
                     <button>V-</button>
-                    <button onclick="clicar('/')">/</button>
-                    <button onclick="clicar('*')">X</button> 
-                    <button onclick="mostrar()">=</button>
+                    <button onclick="limparTela(),clicar('/')">/</button>
+                    <button onclick="limparTela(),clicar('*')">X</button> 
+                    <button onclick="limparTela(),mostrar()">=</button>
                 </div>
 
                 <div class="white">
